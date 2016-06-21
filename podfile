@@ -1,0 +1,4 @@
+platform:ios,'7.0'
+target 'FaceBookShimmer' do
+pod 'Shimmer'
+end

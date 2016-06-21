@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23BF69C75B61FB83BD5C7427 /* libPods-FaceBookShimmer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDFD6CC6F34B02655FC20AB /* libPods-FaceBookShimmer.a */; };
+		6979BE561D191F830048B4F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6979BE551D191F830048B4F1 /* main.m */; };
+		6979BE591D191F830048B4F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6979BE581D191F830048B4F1 /* AppDelegate.m */; };
+		6979BE5C1D191F830048B4F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6979BE5B1D191F830048B4F1 /* ViewController.m */; };
+		6979BE5F1D191F830048B4F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6979BE5D1D191F830048B4F1 /* Main.storyboard */; };
+		6979BE611D191F830048B4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6979BE601D191F830048B4F1 /* Assets.xcassets */; };
+		6979BE641D191F830048B4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6979BE621D191F830048B4F1 /* LaunchScreen.storyboard */; };
+		6979BE6F1D191F830048B4F1 /* FaceBookShimmerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6979BE6E1D191F830048B4F1 /* FaceBookShimmerTests.m */; };
+		6979BE7A1D191F830048B4F1 /* FaceBookShimmerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6979BE791D191F830048B4F1 /* FaceBookShimmerUITests.m */; };
+		6979BE881D191FD20048B4F1 /* Greg-Rakozy-1400x725.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6979BE871D191FD20048B4F1 /* Greg-Rakozy-1400x725.jpg */; };
+		6979BE8A1D192CDB0048B4F1 /* photo-1433878455169-4698e60005b1-1400x933.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6979BE891D192CDB0048B4F1 /* photo-1433878455169-4698e60005b1-1400x933.jpeg */; };
+		6979BE8C1D1931540048B4F1 /* IMG_0229.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6979BE8B1D1931540048B4F1 /* IMG_0229.jpg */; };
+		6979BE8E1D19318F0048B4F1 /* W$_AZGF[%MP[MU@%RWLNHV8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6979BE8D1D19318F0048B4F1 /* W$_AZGF[%MP[MU@%RWLNHV8.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6979BE6B1D191F830048B4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6979BE491D191F830048B4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6979BE501D191F830048B4F1;
+			remoteInfo = FaceBookShimmer;
+		};
+		6979BE761D191F830048B4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6979BE491D191F830048B4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6979BE501D191F830048B4F1;
+			remoteInfo = FaceBookShimmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6979BE511D191F830048B4F1 /* FaceBookShimmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookShimmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6979BE551D191F830048B4F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6979BE571D191F830048B4F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6979BE581D191F830048B4F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6979BE5A1D191F830048B4F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6979BE5B1D191F830048B4F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6979BE5E1D191F830048B4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6979BE601D191F830048B4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6979BE631D191F830048B4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6979BE651D191F830048B4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6979BE6A1D191F830048B4F1 /* FaceBookShimmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookShimmerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6979BE6E1D191F830048B4F1 /* FaceBookShimmerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookShimmerTests.m; sourceTree = "<group>"; };
+		6979BE701D191F830048B4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6979BE751D191F830048B4F1 /* FaceBookShimmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookShimmerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6979BE791D191F830048B4F1 /* FaceBookShimmerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookShimmerUITests.m; sourceTree = "<group>"; };
+		6979BE7B1D191F830048B4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6979BE871D191FD20048B4F1 /* Greg-Rakozy-1400x725.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Greg-Rakozy-1400x725.jpg"; sourceTree = "<group>"; };
+		6979BE891D192CDB0048B4F1 /* photo-1433878455169-4698e60005b1-1400x933.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1433878455169-4698e60005b1-1400x933.jpeg"; sourceTree = "<group>"; };
+		6979BE8B1D1931540048B4F1 /* IMG_0229.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0229.jpg; sourceTree = "<group>"; };
+		6979BE8D1D19318F0048B4F1 /* W$_AZGF[%MP[MU@%RWLNHV8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "W$_AZGF[%MP[MU@%RWLNHV8.jpg"; sourceTree = "<group>"; };
+		6EDFD6CC6F34B02655FC20AB /* libPods-FaceBookShimmer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceBookShimmer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B415F2EFA8610B5F50976CF /* Pods-FaceBookShimmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookShimmer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBookShimmer/Pods-FaceBookShimmer.debug.xcconfig"; sourceTree = "<group>"; };
+		958D40C0C3533FE782BA1D6C /* Pods-FaceBookShimmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookShimmer.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBookShimmer/Pods-FaceBookShimmer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6979BE4E1D191F830048B4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BF69C75B61FB83BD5C7427 /* libPods-FaceBookShimmer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979BE671D191F830048B4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979BE721D191F830048B4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43DC8ABFDD6760610F646827 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B415F2EFA8610B5F50976CF /* Pods-FaceBookShimmer.debug.xcconfig */,
+				958D40C0C3533FE782BA1D6C /* Pods-FaceBookShimmer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6979BE481D191F830048B4F1 = {
+			isa = PBXGroup;
+			children = (
+				6979BE531D191F830048B4F1 /* FaceBookShimmer */,
+				6979BE6D1D191F830048B4F1 /* FaceBookShimmerTests */,
+				6979BE781D191F830048B4F1 /* FaceBookShimmerUITests */,
+				6979BE521D191F830048B4F1 /* Products */,
+				43DC8ABFDD6760610F646827 /* Pods */,
+				E64522AB3DCB8BB87248B30C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6979BE521D191F830048B4F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6979BE511D191F830048B4F1 /* FaceBookShimmer.app */,
+				6979BE6A1D191F830048B4F1 /* FaceBookShimmerTests.xctest */,
+				6979BE751D191F830048B4F1 /* FaceBookShimmerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6979BE531D191F830048B4F1 /* FaceBookShimmer */ = {
+			isa = PBXGroup;
+			children = (
+				6979BE8D1D19318F0048B4F1 /* W$_AZGF[%MP[MU@%RWLNHV8.jpg */,
+				6979BE8B1D1931540048B4F1 /* IMG_0229.jpg */,
+				6979BE891D192CDB0048B4F1 /* photo-1433878455169-4698e60005b1-1400x933.jpeg */,
+				6979BE871D191FD20048B4F1 /* Greg-Rakozy-1400x725.jpg */,
+				6979BE571D191F830048B4F1 /* AppDelegate.h */,
+				6979BE581D191F830048B4F1 /* AppDelegate.m */,
+				6979BE5A1D191F830048B4F1 /* ViewController.h */,
+				6979BE5B1D191F830048B4F1 /* ViewController.m */,
+				6979BE5D1D191F830048B4F1 /* Main.storyboard */,
+				6979BE601D191F830048B4F1 /* Assets.xcassets */,
+				6979BE621D191F830048B4F1 /* LaunchScreen.storyboard */,
+				6979BE651D191F830048B4F1 /* Info.plist */,
+				6979BE541D191F830048B4F1 /* Supporting Files */,
+			);
+			path = FaceBookShimmer;
+			sourceTree = "<group>";
+		};
+		6979BE541D191F830048B4F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6979BE551D191F830048B4F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6979BE6D1D191F830048B4F1 /* FaceBookShimmerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6979BE6E1D191F830048B4F1 /* FaceBookShimmerTests.m */,
+				6979BE701D191F830048B4F1 /* Info.plist */,
+			);
+			path = FaceBookShimmerTests;
+			sourceTree = "<group>";
+		};
+		6979BE781D191F830048B4F1 /* FaceBookShimmerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6979BE791D191F830048B4F1 /* FaceBookShimmerUITests.m */,
+				6979BE7B1D191F830048B4F1 /* Info.plist */,
+			);
+			path = FaceBookShimmerUITests;
+			sourceTree = "<group>";
+		};
+		E64522AB3DCB8BB87248B30C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EDFD6CC6F34B02655FC20AB /* libPods-FaceBookShimmer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6979BE501D191F830048B4F1 /* FaceBookShimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6979BE7E1D191F830048B4F1 /* Build configuration list for PBXNativeTarget "FaceBookShimmer" */;
+			buildPhases = (
+				C8F29A611CBF3A133AC852E6 /* 📦 Check Pods Manifest.lock */,
+				6979BE4D1D191F830048B4F1 /* Sources */,
+				6979BE4E1D191F830048B4F1 /* Frameworks */,
+				6979BE4F1D191F830048B4F1 /* Resources */,
+				02DBCD7D3F8E8F94429AFAFF /* 📦 Embed Pods Frameworks */,
+				6174E2961555DD012DEEC591 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBookShimmer;
+			productName = FaceBookShimmer;
+			productReference = 6979BE511D191F830048B4F1 /* FaceBookShimmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6979BE691D191F830048B4F1 /* FaceBookShimmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6979BE811D191F830048B4F1 /* Build configuration list for PBXNativeTarget "FaceBookShimmerTests" */;
+			buildPhases = (
+				6979BE661D191F830048B4F1 /* Sources */,
+				6979BE671D191F830048B4F1 /* Frameworks */,
+				6979BE681D191F830048B4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6979BE6C1D191F830048B4F1 /* PBXTargetDependency */,
+			);
+			name = FaceBookShimmerTests;
+			productName = FaceBookShimmerTests;
+			productReference = 6979BE6A1D191F830048B4F1 /* FaceBookShimmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6979BE741D191F830048B4F1 /* FaceBookShimmerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6979BE841D191F830048B4F1 /* Build configuration list for PBXNativeTarget "FaceBookShimmerUITests" */;
+			buildPhases = (
+				6979BE711D191F830048B4F1 /* Sources */,
+				6979BE721D191F830048B4F1 /* Frameworks */,
+				6979BE731D191F830048B4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6979BE771D191F830048B4F1 /* PBXTargetDependency */,
+			);
+			name = FaceBookShimmerUITests;
+			productName = FaceBookShimmerUITests;
+			productReference = 6979BE751D191F830048B4F1 /* FaceBookShimmerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6979BE491D191F830048B4F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "宓珂璟";
+				TargetAttributes = {
+					6979BE501D191F830048B4F1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6979BE691D191F830048B4F1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6979BE501D191F830048B4F1;
+					};
+					6979BE741D191F830048B4F1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6979BE501D191F830048B4F1;
+					};
+				};
+			};
+			buildConfigurationList = 6979BE4C1D191F830048B4F1 /* Build configuration list for PBXProject "FaceBookShimmer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6979BE481D191F830048B4F1;
+			productRefGroup = 6979BE521D191F830048B4F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6979BE501D191F830048B4F1 /* FaceBookShimmer */,
+				6979BE691D191F830048B4F1 /* FaceBookShimmerTests */,
+				6979BE741D191F830048B4F1 /* FaceBookShimmerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6979BE4F1D191F830048B4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6979BE8A1D192CDB0048B4F1 /* photo-1433878455169-4698e60005b1-1400x933.jpeg in Resources */,
+				6979BE641D191F830048B4F1 /* LaunchScreen.storyboard in Resources */,
+				6979BE881D191FD20048B4F1 /* Greg-Rakozy-1400x725.jpg in Resources */,
+				6979BE611D191F830048B4F1 /* Assets.xcassets in Resources */,
+				6979BE8C1D1931540048B4F1 /* IMG_0229.jpg in Resources */,
+				6979BE8E1D19318F0048B4F1 /* W$_AZGF[%MP[MU@%RWLNHV8.jpg in Resources */,
+				6979BE5F1D191F830048B4F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979BE681D191F830048B4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979BE731D191F830048B4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02DBCD7D3F8E8F94429AFAFF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceBookShimmer/Pods-FaceBookShimmer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6174E2961555DD012DEEC591 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceBookShimmer/Pods-FaceBookShimmer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F29A611CBF3A133AC852E6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6979BE4D1D191F830048B4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6979BE5C1D191F830048B4F1 /* ViewController.m in Sources */,
+				6979BE591D191F830048B4F1 /* AppDelegate.m in Sources */,
+				6979BE561D191F830048B4F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979BE661D191F830048B4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6979BE6F1D191F830048B4F1 /* FaceBookShimmerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6979BE711D191F830048B4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6979BE7A1D191F830048B4F1 /* FaceBookShimmerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6979BE6C1D191F830048B4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6979BE501D191F830048B4F1 /* FaceBookShimmer */;
+			targetProxy = 6979BE6B1D191F830048B4F1 /* PBXContainerItemProxy */;
+		};
+		6979BE771D191F830048B4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6979BE501D191F830048B4F1 /* FaceBookShimmer */;
+			targetProxy = 6979BE761D191F830048B4F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6979BE5D1D191F830048B4F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6979BE5E1D191F830048B4F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6979BE621D191F830048B4F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6979BE631D191F830048B4F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6979BE7C1D191F830048B4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6979BE7D1D191F830048B4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6979BE7F1D191F830048B4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B415F2EFA8610B5F50976CF /* Pods-FaceBookShimmer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaceBookShimmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iwala.FaceBookShimmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6979BE801D191F830048B4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958D40C0C3533FE782BA1D6C /* Pods-FaceBookShimmer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaceBookShimmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iwala.FaceBookShimmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6979BE821D191F830048B4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaceBookShimmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iwala.FaceBookShimmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookShimmer.app/FaceBookShimmer";
+			};
+			name = Debug;
+		};
+		6979BE831D191F830048B4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaceBookShimmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iwala.FaceBookShimmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookShimmer.app/FaceBookShimmer";
+			};
+			name = Release;
+		};
+		6979BE851D191F830048B4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FaceBookShimmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iwala.FaceBookShimmerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FaceBookShimmer;
+			};
+			name = Debug;
+		};
+		6979BE861D191F830048B4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FaceBookShimmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iwala.FaceBookShimmerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FaceBookShimmer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6979BE4C1D191F830048B4F1 /* Build configuration list for PBXProject "FaceBookShimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6979BE7C1D191F830048B4F1 /* Debug */,
+				6979BE7D1D191F830048B4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6979BE7E1D191F830048B4F1 /* Build configuration list for PBXNativeTarget "FaceBookShimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6979BE7F1D191F830048B4F1 /* Debug */,
+				6979BE801D191F830048B4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6979BE811D191F830048B4F1 /* Build configuration list for PBXNativeTarget "FaceBookShimmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6979BE821D191F830048B4F1 /* Debug */,
+				6979BE831D191F830048B4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6979BE841D191F830048B4F1 /* Build configuration list for PBXNativeTarget "FaceBookShimmerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6979BE851D191F830048B4F1 /* Debug */,
+				6979BE861D191F830048B4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6979BE491D191F830048B4F1 /* Project object */;
+}
